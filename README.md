@@ -12,11 +12,19 @@ $ make
 
 ## Usage
 
-TODO: Write usage instructions here
+```text
+Usage: udipo COMMAND [OPTION]...
+
+Command:
+    server                   starts a chat server
+    client                   starts a chat client
+    help, --help, -h         shows this message
+    version, --version, -v   shows build version
+```
 
 ## Development
 
-TODO: Write development instructions here
+`$ make dev` is a shortcut for development-mode compilation (which is faster)
 
 ## Contributing
 
