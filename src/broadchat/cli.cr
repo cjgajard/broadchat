@@ -1,9 +1,9 @@
 require "../server"
 require "../client"
 
-module Udipo::CLI
+module Broadchat::CLI
   USAGE = <<-HELP
-    Usage: udipo COMMAND [OPTION]...
+    Usage: broadchat COMMAND [OPTION]...
 
     Command:
         server                   starts a chat server
@@ -19,7 +19,7 @@ module Udipo::CLI
     when "client"
       client_cmd(args)
     when "version", "--version", "-v"
-      exit_with("udipo #{Udipo::VERSION}")
+      exit_with("broadchat #{Broadchat::VERSION}")
     else
       exit_with(USAGE)
     end

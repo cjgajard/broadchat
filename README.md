@@ -1,19 +1,19 @@
-# udipo
+# broadchat
 
 UDP chat through local broadcast.
 
 ## Installation
 
 ```
-$ git clone git@github.com:cjgajard/udipo.git
-$ cd udipo
+$ git clone git@github.com:cjgajard/broadchat.git
+$ cd broadchat
 $ make
 ```
 
 ## Usage
 
 ```text
-Usage: udipo COMMAND [OPTION]...
+Usage: broadchat COMMAND [OPTION]...
 
 Command:
     server                   starts a chat server
@@ -28,7 +28,7 @@ Command:
 
 ## Contributing
 
-1. Fork it ( https://github.com/cjgajard/udipo/fork )
+1. Fork it ( https://github.com/cjgajard/broadchat/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

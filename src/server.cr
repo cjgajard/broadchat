@@ -1,7 +1,7 @@
 require "socket"
-require "./udipo/common"
+require "./broadchat/common"
 
-class Udipo::Server
+class Broadchat::Server
   SERVER_ADDR = Socket::IPAddress.new(
     Socket::Family::INET,
     "127.0.0.1", 8080

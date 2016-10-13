@@ -1,7 +1,9 @@
-module Udipo
+require "socket"
+
+module Broadchat
   BROADCAST_ADDR = Socket::IPAddress.new(
     Socket::Family::INET,
-    "192.168.0.255", 6667
+    "192.168.1.255", 6667
   )
 end
 

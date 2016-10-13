@@ -1,3 +1,3 @@
-require "./udipo"
+require "./broadchat"
 
-Udipo::CLI.main()
+Broadchat::CLI.main()

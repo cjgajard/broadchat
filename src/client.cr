@@ -1,7 +1,7 @@
 require "socket"
-require "./udipo/common"
+require "./broadchat/common"
 
-class Udipo::Client
+class Broadchat::Client
   def initialize
     @broadcast_socket = UDPSocket.new
     @client_socket = UDPSocket.new
@@ -16,7 +16,7 @@ class Udipo::Client
   end
 
   def run
-    puts "Welcome to Udipo Broadcast!"
+    puts "Welcome to Broadchat Broadcast!"
     @client_socket.send("Hello! from #{@client_socket.local_address}")
     loop do
       length, addr = @broadcast_socket.receive(@buffer)

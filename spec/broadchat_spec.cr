@@ -1,5 +1,5 @@
 require "./spec_helper"
 
-describe Udipo do
+describe Broadchat do
   # TODO: Write tests
 end
