@@ -32,11 +32,11 @@ module Udipo::CLI
 
   def self.server_cmd(args)
     # TODO: parse server specific arguments
-    Server.new().start
+    Server.new().setup.listen
   end
 
   def self.client_cmd(args)
     # TODO: parse client specific arguments
-    Client.new().start
+    Client.new().setup.run
   end
 end
