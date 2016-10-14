@@ -13,13 +13,17 @@ $ make
 ## Usage
 
 ```text
-Usage: broadchat COMMAND [OPTION]...
+Usage: broadchat [OPTION]...
 
-Command:
-    server                   starts a chat server
-    client                   starts a chat client
-    help, --help, -h         shows this message
-    version, --version, -v   shows build version
+Option:
+    -b ADDRESS, --bcast ADDRESS      sets broadcast address (default: 192.168.1.255)
+    -p NUMBER, --port NUMBER         sets broadcast port (default: 6667)
+    -v, --version                    shows version
+    -h, --help                       shows this message
+
+Broadcast address can also be assigned with the environment variable BCAST_ADDR
+e.g.:
+    export BCAST_ADDR='10.10.1.255'
 ```
 
 ## Contributing
