@@ -1,10 +1,10 @@
 # broadchat
 
-UDP chat through local broadcast.
+Chat through UDP local broadcast.
 
 ## Installation
 
-```
+```text
 $ git clone git@github.com:cjgajard/broadchat.git
 $ cd broadchat
 $ make
@@ -21,10 +21,6 @@ Command:
     help, --help, -h         shows this message
     version, --version, -v   shows build version
 ```
-
-## Development
-
-`$ make dev` is a shortcut for development-mode compilation (which is faster)
 
 ## Contributing
 
